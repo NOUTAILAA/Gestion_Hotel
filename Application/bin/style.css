@@ -1,0 +1,13 @@
+/* styles.css */
+.styled-button {
+    -fx-font-size: 14pt;
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-border: none; /* Remove button border */
+    -fx-border-radius: 5px; /* Optional: Round the button corners */
+    -fx-cursor: hand; /* Optional: Change cursor on hover */
+}
+
+.styled-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}

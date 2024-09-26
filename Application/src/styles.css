@@ -1,0 +1,71 @@
+.heading {
+    -fx-font-size: 2em;
+    -fx-text-fill: #2e2e2e;
+    -fx-font-weight: bold;
+    -fx-margin: 5px 0 10px 0;
+}
+
+.root {
+    -fx-background-color: rgb(255, 255, 255);
+}
+
+.inputContainer {
+    -fx-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+}
+
+
+.inputIcon {
+    -fx-position: absolute;
+    -fx-left: 3px;
+}
+
+.inputField {
+    -fx-width: 100%;
+    -fx-height: 30px;
+    -fx-background-color: transparent;
+    -fx-border: none;
+    -fx-border-bottom: 2px solid rgb(173, 173, 173);
+    -fx-margin: 10px 0;
+    -fx-text-fill: black;
+    -fx-font-size: 0.8em;
+    -fx-font-weight: bold;
+    -fx-box-sizing: border-box;
+    -fx-padding-left: 30px;
+}
+
+.inputField:focused {
+    -fx-outline: none;
+    -fx-border-bottom: 2px solid rgb(199, 114, 255);
+}
+
+.inputField:placeholder {
+    -fx-text-fill: rgb(80, 80, 80);
+    -fx-font-size: 1em;
+    -fx-font-weight: bold;
+}
+
+#button {
+    -fx-width: 100%;
+    -fx-border: none;
+    -fx-background-color: rgb(162, 104, 255);
+    -fx-height: 30px;
+    -fx-text-fill: white;
+    -fx-font-size: 0.8em;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 1px;
+    -fx-margin: 10px;
+    -fx-cursor: hand;
+}
+
+#button:hover {
+    -fx-background-color: rgb(126, 84, 255);
+}
+
+.forgotLink {
+    -fx-font-size: 0.7em;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(44, 24, 128);
+    -fx-text-decoration: none;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 20px;
+}

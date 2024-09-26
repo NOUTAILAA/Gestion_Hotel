@@ -1,0 +1,1 @@
+SELECT * FROM bdbd2.reservations;

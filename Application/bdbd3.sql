@@ -1,0 +1,1 @@
+SELECT * FROM bdbd3.client;

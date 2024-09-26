@@ -1,0 +1,1 @@
+SELECT * FROM maa_base_de_donnees.client;
